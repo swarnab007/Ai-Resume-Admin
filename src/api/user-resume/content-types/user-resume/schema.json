@@ -4,14 +4,15 @@
   "info": {
     "singularName": "user-resume",
     "pluralName": "user-resumes",
-    "displayName": "User-Resume"
+    "displayName": "User-Resume",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "resumeTitle": {
+    "title": {
       "type": "string",
       "required": true
     },
@@ -23,6 +24,30 @@
     },
     "resumeEmail": {
       "type": "email"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "resumeTitle": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
     }
   }
 }
