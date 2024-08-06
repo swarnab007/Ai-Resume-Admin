@@ -386,6 +386,7 @@ export interface ApiUserResumeUserResume extends Schema.CollectionType {
     linkedin: Attribute.String;
     resumeTitle: Attribute.String;
     about: Attribute.String;
+    Experience: Attribute.Component<'experience.experience', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
